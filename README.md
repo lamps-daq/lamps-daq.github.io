@@ -1,1 +1,1 @@
-# lamps-daq.github.io
+# Functioning webpage for lamps-daq.github.io
