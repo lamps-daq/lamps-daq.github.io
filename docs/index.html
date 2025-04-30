@@ -1,45 +1,79 @@
 CTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to My GitHub Pages Site</title>
-    <link rel="stylesheet" href="css/style.css">
+<!-- saved from url=(0039)https://www.tifr.res.in/pell/lamps.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>LAMPS</title>
+<meta name="description" content="Linux Advanced MultiParameter System">
+<meta name="keywords" content="LAMPS for Linux">
+
+<link rel="stylesheet" type="text/css" href="./LAMPS_files/style.css">
+<script type="text/javascript">
+<!--
+var image1=new Image(); image1.src="lamps_files/img/vme.jpg";
+var image2=new Image(); image2.src="lamps_files/img/ecc.jpg";
+var image3=new Image(); image3.src="lamps_files/img/cmc100.jpg";
+var image4=new Image(); image4.src="lamps_files/img/cc2002.jpg";
+var image5=new Image(); image5.src="lamps_files/img/fera.jpg";
+//-->
+</script>
 </head>
-<body>
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>	
+<div id="main">	<div id="header">
+<div id="logo"> <div id="logo_text">						
+<!-- class="logo_colour", allows you to change the colour of the text -->
+<table><tbody><tr style="border-top: none;">
+<td style="background: #323534; border-top: none;"><h1>LAMPS</h1><h2>Linux Advanced MultiParameter System</h2></td>
+<td style="background: #323534; border-top: none;"><img src="./LAMPS_files/front1.jpg" height="100"></td>
+<td style="background: #323534; border-top: none;"><img src="./LAMPS_files/front2.jpg" height="100"></td>
+</tr></tbody></table>
+</div></div>
+<div id="menubar"><ul id="menu">						
+<!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+<li class="selected">	<a href="https://www.tifr.res.in/pell/lamps.html">Home</a></li>	
+<li> <a href="https://www.tifr.res.in/pell/lamps_files/download.html">Download LAMPS</a></li>
+<li> <a href="https://www.tifr.res.in/pell/lamps_files/help.html">Help</a></li>
+<li>  <a href="https://www.tifr.res.in/pell/lamps_files/announce.html">Announcements</a></li>		
+<li>  <a href="https://www.tifr.res.in/pell/lamps_files/contact.html">Contact Us</a></li></ul>				
+</div></div>	
+			
+<div id="site_content"><div id="sidebar_container"> 					
+<div class="sidebar"><div class="sidebar_item" style="height:180px; vertical-align: middle; text-align: center;" align="center">
+<!-- insert your sidebar items here -->
+<img src="./LAMPS_files/fera.jpg" name="slide" width="192">
+<script>
+<!--//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<5)
+step++
+else
+step=1
+//call function "slideit()" every 2.5 seconds
+setTimeout("slideit()",2500)
+}
+slideit()
+//-->
+</script>
+</div></div>
+</div>
+<img style="position:absolute;top:135px;left:70px;height:100px" src="./LAMPS_files/new.gif">
+<div id="content" style="Z-INDEX: 0">				
+<!-- insert the page content here -->
+<h1 style="font-weight: bold; font-size: 30px; text-align:center"> Linux Advanced MultiParameter System <br> </h1>
+<div style="text-align:justify; font-family: &#39;Times New Roman&#39;, Times, serif; font-size: 24px; color: #4499FF;"><br>
+LAMPS is a data acquisition and analysis package that supports VME, CAMAC-FERA and a number of CAMAC controllers.
+It can also be used for offline data analysis. It runs under Linux (any recent version) and in cygwin under MS Windows.
+It is designed for large-scale experiments.
+<br><br>
+It is in use at the BARC-TIFR Pelletron Laboratory, since August 2002.</div>								
+</div>
+</div>
+<div id="footer"><p><a href="https://www.tifr.res.in/pell/lamps.html">Home</a> | <a href="https://www.tifr.res.in/pell/lamps_files/contact.html">Contact Us</a></p></div>
+</div>
 
-    <!-- Main Content Section -->
-    <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>This is the first commit of my GitHub Pages site. Feel free to explore and check back for updates!</p>
-        </section>
-        <section>
-            <h2>Features</h2>
-            <ul>
-                <li>HTML, CSS, and JavaScript support</li>
-                <li>Responsive design</li>
-                <li>Powered by GitHub Pages</li>
-            </ul>
-        </section>
-    </main>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 <a href="https://github.com/lamps-daq">lamps-daq</a>. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+</body></html>
 
